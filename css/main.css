@@ -87,6 +87,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------- Base Font and Paragraph styles ----------- */
+
+p {
+  margin: 0;
+}
+
 /* -------------- Base Header - Footer Styles -------------- */
 header,
 footer {
@@ -229,6 +235,14 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
+.mission .content-wrapper {
+  margin: 50px 20px;
+}
+
+.contact-section .content-wrapper {
+  margin: 50px 20px;
+}
+
 /* ====================================================================
    FAQ Page
    ==================================================================== */
@@ -245,6 +259,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 20px;
 }
 /* ==========================================================================
    Helper classes
@@ -334,17 +349,13 @@ aside .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
 }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
