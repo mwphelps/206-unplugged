@@ -96,7 +96,9 @@ footer {
   flex-flow: row wrap;
 }
 
-/* ------------------ Base Header Styles -------------------- */
+header {
+  padding: 15px 0;
+}
 
 header .content-wrapper
   {
@@ -106,10 +108,8 @@ header .content-wrapper
   flex-flow: row wrap;
 }
 
-header .header-divider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header-divider {
+  width: 100%;
 }
 
 header nav {
@@ -117,22 +117,19 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-flow: row nowrap;
+  width: 45%;
 }
-
-/* --------------- Base Footer Styles ----------------------- */
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-flow: row nowrap;
 }
 
 footer .social-icons p {
@@ -141,42 +138,82 @@ footer .social-icons p {
   align-items: center;
 }
 
-/* -------------- Homepage Mobile Styles -------------- */
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+/* -------------- Mobile Styles - Homepage -------------- */
+
+/* Hero Area */
 
 .hero-area {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  flex-flow: row wrap;
 }
+
+.hero-area .content-wrapper {
+  margin: 55px 20px;
+}
+/* Aside */
 
 aside {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+aside .content-wrapper {
+  margin: 30px 20px;
+  margin-bottom: 55px;
+}
+
+/* Features */
 
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
-.features .features-items {
+.features .feature-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+.features article {
+  width: 55%;
+}
+
+.features .content-wrapper {
+  margin: 50px 20px;
+  margin-bottom: 65px;
+}
+
+/* Reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-/* -------------- About US Mobile Styles -------------- */
+.reviews h3 {
+  width: 50%;
+}
+
+.reviews .content-wrapper {
+  margin: 50px 20px;
+  margin-top: 55px;
+}
+
+/* ====================================================================
+   About Page
+   ==================================================================== */
 
 .mission {
   display: flex;
@@ -192,7 +229,9 @@ aside {
   flex-flow: row wrap;
 }
 
-/* ------------- FAQ Mobile Styles ------------------- */
+/* ====================================================================
+   FAQ Page
+   ==================================================================== */
 
 .faq {
   display: flex;
