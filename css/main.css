@@ -146,6 +146,9 @@ footer .social-icons p {
 
 footer .content-wrapper {
   width: 55%;
+}
+
+footer .content-wrapper .footer-content {
   margin: 50px 0;
 }
 
@@ -155,12 +158,13 @@ footer .content-wrapper {
 
 .hero-area {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
 .hero-area .content-wrapper {
-  margin: 55px 20px;
+  margin: 55px 0px;
+  width: 90%;
 }
 /* Aside */
 
@@ -172,8 +176,9 @@ aside {
 }
 
 aside .content-wrapper {
-  margin: 30px 20px;
+  margin-top: 30px;
   margin-bottom: 55px;
+  width: 90%;
 }
 
 /* Features */
@@ -196,8 +201,9 @@ aside .content-wrapper {
 }
 
 .features .content-wrapper {
-  margin: 50px 20px;
+  margin-top: 50px;
   margin-bottom: 65px;
+  width: 90%;
 }
 
 /* Reviews */
@@ -213,8 +219,8 @@ aside .content-wrapper {
 }
 
 .reviews .content-wrapper {
-  margin: 50px 20px;
-  margin-top: 55px;
+  margin: 50px 0px;
+  width: 90%;
 }
 
 /* ====================================================================
@@ -230,17 +236,19 @@ aside .content-wrapper {
 
 .contact-section {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
 .mission .content-wrapper {
-  margin: 50px 20px;
+  margin: 50px 0px;
+  width: 90%;
 }
 
 .contact-section .content-wrapper {
-  margin: 50px 20px;
+  margin: 50px 0px;
+  width: 90%;
 }
 
 /* ====================================================================
@@ -252,14 +260,16 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
+} 
+
 
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
-  margin: 50px 20px;
+  margin: 50px 0px;
+  width: 90%;
 }
 /* ==========================================================================
    Helper classes
