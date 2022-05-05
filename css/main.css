@@ -134,6 +134,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  list-style: none;
 }
 
 footer {
@@ -369,9 +370,146 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
+/* ==========================================================================
+   TABLET STYLES
+   ========================================================================== */
+
 @media only screen and (min-width: 768px) {
+  
+  .content-wrapper {
+    width: 85%;
+    margin: 100px 0;
+  }
+
   /* --------------- Base Header - Footer Styles ----------- */
-}
+
+  header {
+    padding: 30px 0;
+  }
+
+  header .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    height: 0;
+    margin: 0;
+    width: 0;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  /* ---------------- Tablet Styles - Homepage ---------- */
+
+  /* Aside */
+  
+  aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+
+  aside .form-discription {
+    width: 33%;
+  }
+
+  aside .form {
+    width: 38%;
+  }
+
+  /* Features */
+
+  .features h2 {
+    margin-bottom: 40px;
+  }
+
+  .features .feature-items {
+    justify-content: space-around ;
+  }
+  
+  .feature-items article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 200px;
+    margin: 25px 8%;
+  }
+
+  /* Reviews */
+
+  .reviews article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviews p {
+    width: 50%;
+  }
+
+  /* ---------------- Tablet Styles - About Page ---------------- */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 70%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  /* -------------- Tablet Styles - FAQ Page ------------------ */
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+} /* Tablet stlyes end */
+
+
+
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
