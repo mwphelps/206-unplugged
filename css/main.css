@@ -491,6 +491,10 @@ aside {
     align-items: flex-start;
   }
 
+  .contact-content div {
+    width: 45%;
+  }
+
   /* -------------- Tablet Styles - FAQ Page ------------------ */
   .faq .content-wrapper {
     justify-content: space-between;
@@ -522,24 +526,24 @@ aside {
   /* Hero Area */
 
   .hero-area h1 {
-    width: 55%;
+    width: 60%;
   }
 
   /* Aside */  
 
   aside .content-wrapper {
-    width: 66%;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-discription,
   aside .content-wrapper .form {
-    width: 37%;
+    width: 30%;
   }
 
   /* Features */
 
   .features h2 {
-    width: 70%;
+    width: 90%;
   }
 
   .features article {
@@ -549,14 +553,14 @@ aside {
   /* Reviews */
 
   .reviews article div {
-    width: 35%;
+    width: 42%;
   }
 
   /* ---------------- Tablet Styles - About Page ---------------- */
 
   .mission h2, 
   .contact-section .content-wrapper h2 {
-    width: 77%;
+    width: 95%;
   }
 
   /* ---------------- Tablet Styles - faq Page ----------------- */
