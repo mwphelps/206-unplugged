@@ -405,6 +405,7 @@ aside {
   }
 
   footer .content-wrapper {
+    /********************THOUGHTS TO CHANGE THIS TO A PIXAL NUMBER TO KEEP IT STATIONARY */
     width: 65%;
     margin: 100px 0;
   }
@@ -506,10 +507,65 @@ aside {
 } /* Tablet stlyes end */
 
 
-
+/* ==========================================================================
+   DESKTOP STYLES
+   ========================================================================== */
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
+  
+  /* ---------------------- Base Header - Footer Styles --------------*/
+
+  .content-wrapper {
+    width: 960px;
+  }
+
+  /* Hero Area */
+
+  .hero-area h1 {
+    width: 55%;
+  }
+
+  /* Aside */  
+
+  aside .content-wrapper {
+    width: 66%;
+  }
+
+  aside .content-wrapper .form-discription,
+  aside .content-wrapper .form {
+    width: 37%;
+  }
+
+  /* Features */
+
+  .features h2 {
+    width: 70%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reviews */
+
+  .reviews article div {
+    width: 35%;
+  }
+
+  /* ---------------- Tablet Styles - About Page ---------------- */
+
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
+    width: 77%;
+  }
+
+  /* ---------------- Tablet Styles - faq Page ----------------- */
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  /*Desktop styles end*/
 }
 /* ==========================================================================
    Print styles.
