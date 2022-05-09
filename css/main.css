@@ -97,6 +97,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed;
+  background-color: #202322;
 }
 
 ul,
@@ -189,13 +190,19 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #e2e3ed;
+  text-transform: uppercase;
 }
 
 footer {
   flex-direction: column;
+  color: #ffffff;
 }
 
-footer .p {
+footer p {
   margin: 0;
 }
 
@@ -243,6 +250,32 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Features */
 
 .features {
@@ -269,6 +302,7 @@ aside {
 
 .features p {
   margin: 0;
+  color: #e1e2ea;
 }
 
 /* Reviews */
@@ -305,6 +339,11 @@ aside {
   flex-flow: row wrap;
 }
 
+.contact-section p {
+  line-height: normal;
+  color: #ffffff;
+}
+
 .contact-content {
   margin: 0;
 }
@@ -332,8 +371,13 @@ aside {
   margin-bottom: 40px;
 }
 
+.faq h4 {
+  line-height: 1.5em;
+  color: #e2e3ed;
+}
+
 .faq-content {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 /* ==========================================================================
@@ -460,7 +504,7 @@ aside {
 
   footer .content-wrapper {
     /********************THOUGHTS TO CHANGE THIS TO A PIXAL NUMBER TO KEEP IT STATIONARY */
-    width: 65%;
+    width: 500px;
     margin: 100px 0;
   }
 
@@ -575,6 +619,10 @@ aside {
 
   .content-wrapper {
     width: 960px;
+  }
+
+  footer .content-wrapper {
+    width: 780px;
   }
 
   /* Hero Area */
