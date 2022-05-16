@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* -------------- Base Font and Paragraph styles ----------- */
+/* ----------------- Global styles --------------- */
 
 html {
   font-size: 16px;
@@ -116,17 +116,21 @@ a {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+  margin: 0;
+  font-weight: 400;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 400;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 400;
 }
 
 p {
@@ -136,7 +140,11 @@ p {
 }
 
 img {
+  width: 100%;
+}
 
+figure {
+  margin: 0;
 }
 
 address {
@@ -170,12 +178,22 @@ header .content-wrapper
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  width: 100%;
 }
 
 .header-divider {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background-color: #ffffff;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
@@ -195,6 +213,8 @@ header nav ul {
   font-weight: 700;
   color: #e2e3ed;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 
 footer {
@@ -239,6 +259,12 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/hero-area-image.jpg') center no-repeat #333;
+  background-size: cover;
+}
+
+.hero-area .content-wrapper {
+  margin-bottom: 250px;
 }
 
 /* Aside */
@@ -282,6 +308,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features-bg-imgae.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -311,6 +339,12 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+}
+
+.reviews figure {
+  background: url('../img/lacrue-bottling-co-october-18.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .reviews h2 {
@@ -488,6 +522,7 @@ input[type=button] {
 
   header .content-wrapper {
     justify-content: space-between;
+    width: 640px;
   }
 
   .header-divider {
@@ -560,6 +595,12 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .reviews figure {
+    display: flex;
+    width: 49%;
   }
 
   .reviews article div {
@@ -618,6 +659,10 @@ input[type=button] {
   /* ---------------------- Base Header - Footer Styles --------------*/
 
   .content-wrapper {
+    width: 960px;
+  }
+
+  header .content-wrapper {
     width: 960px;
   }
 
