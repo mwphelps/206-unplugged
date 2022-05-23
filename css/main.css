@@ -316,6 +316,11 @@ input[type=button] {
   margin-bottom: 60px;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features .feature-items {
   display: flex;
   justify-content: center;
@@ -331,6 +336,7 @@ input[type=button] {
 .features p {
   margin: 0;
   color: #e1e2ea;
+  text-align: center;
 }
 
 /* Reviews */
