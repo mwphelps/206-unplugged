@@ -194,6 +194,7 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header nav {
@@ -562,6 +563,10 @@ input[type=button] {
     width: 640px;
   }
 
+  header figure {
+    width: 29%;
+  }
+
   .header-divider {
     display: none;
   }
@@ -572,6 +577,10 @@ input[type=button] {
 
   header nav ul {
     justify-content: space-between;
+  }
+
+  header a {
+    font-size: 1em;
   }
 
   footer .content-wrapper {
