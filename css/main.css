@@ -222,8 +222,13 @@ footer {
   color: #ffffff;
 }
 
+footer h4 {
+  text-align: center;
+}
+
 footer p {
   margin: 0;
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -245,10 +250,17 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1em;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  background: #527158;
 }
 
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
 }
 
 /* -------------- Mobile Styles - Homepage -------------- */
@@ -370,6 +382,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .map figure {
@@ -393,6 +406,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-section p {
@@ -413,6 +427,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 } 
 
 .faq .content-wrapper {
@@ -560,7 +575,6 @@ input[type=button] {
   }
 
   footer .content-wrapper {
-    /********************THOUGHTS TO CHANGE THIS TO A PIXAL NUMBER TO KEEP IT STATIONARY */
     width: 500px;
     margin: 100px 0;
   }
@@ -573,10 +587,19 @@ input[type=button] {
 
   footer .contact {
     margin-bottom: 0;
+    width: 200px;
+  }
+
+  footer .social-icons {
+    width: 200px;
   }
 
   footer .copyright {
     width: 100%;
+  }
+
+  footer p {
+    line-height: 1.5em;
   }
 
   /* ---------------- Tablet Styles - Homepage ---------- */
@@ -699,7 +722,7 @@ input[type=button] {
   /* Hero Area */
 
   .hero-area h1 {
-    width: 60%;
+    width: 50%;
   }
 
   /* Aside */  
